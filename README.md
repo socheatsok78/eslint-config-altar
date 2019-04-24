@@ -127,6 +127,9 @@ Once you have done one, or both, of the above installs. You probably want your e
 "[javascriptreact]": {
   "editor.formatOnSave": false
 },
+"[vue]": {
+  "editor.formatOnSave": false
+},
 // tell the ESLint plugin to run on save
 "eslint.autoFixOnSave": true,
 "eslint.validate": [
@@ -136,6 +139,7 @@ Once you have done one, or both, of the above installs. You probably want your e
 ]
 // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
 "prettier.disableLanguages": ["javascript", "javascriptreact"],
+"vetur.format.options.tabSize": 4,
 ```
 
 ## `.editorconfig`
