@@ -11,10 +11,11 @@
     "role": "Developer"
   },
   "keywords": [
-    "laravel",
-    "laravel mix",
-    "mix",
+    "javascript",
+    "ecmascript",
     "eslint",
+    "lint",
+    "config",
     "prettier"
   ],
   "bugs": {
