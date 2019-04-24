@@ -23,6 +23,9 @@
     "url": "https://github.com/socheatsok78/eslint-config-altar/issues"
   },
   "homepage": "https://github.com/socheatsok78/eslint-config-altar#readme",
+  "scripts": {
+    "prepublish": "safe-publish-latest"
+  },
   "peerDependencies": {
     "babel-eslint": "^9.0.0",
     "eslint": "^5.16.0",
@@ -43,6 +46,7 @@
     "eslint-plugin-import": "^2.16.0",
     "eslint-plugin-prettier": "^3.0.1",
     "eslint-plugin-vue": "^5.2.2",
-    "prettier": "^1.16.4"
+    "prettier": "^1.16.4",
+    "safe-publish-latest": "^1.1.2"
   }
 }
