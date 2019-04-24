@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-altar",
   "description": "ESLint and Prettier Config for VueJS",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "main": "index.js",
   "repository": "git@github.com:socheatsok78/eslint-config-altar.git",
   "license": "MIT",
