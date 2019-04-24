@@ -13,7 +13,7 @@ You might like them - or you might not. Don't worry you can always change them.
 - Lints JavaScript based on the latest standards
 - Fixes issues and formatting errors with Prettier
 - Lints + Fixes inside of html script tags
-- Lints + Fixes React via eslint-config-airbnb
+- Lints + Fixes Vue via eslint-plugin-vue
 - You can see all the [rules here](https://github.com/socheatsok78/eslint-config-altar/blob/master/.eslintrc.js) - these generally abide by the code written in my courses. You are very welcome to overwrite any of these settings, or just fork the entire thing to create your own.
 
 ## Installing
