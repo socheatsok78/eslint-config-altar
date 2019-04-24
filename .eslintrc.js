@@ -1,9 +1,11 @@
 module.exports = {
     "extends": [
         "airbnb",
+        "plugin:vue/recommended",
+        "prettier/vue"
+    ],
+    "plugins": [
         "prettier",
-        "prettier/react",
-        "plugin:vue/essential"
     ],
     "parserOptions": {
         "ecmaVersion": 2017,
@@ -114,26 +116,6 @@ module.exports = {
             }
         ],
 
-        /**
-         * React ESLint Plugins
-         */
-        "react/display-name": 1,
-        "react/no-array-index-key": 0,
-        "react/react-in-jsx-scope": 0,
-        "react/prefer-stateless-function": 0,
-        "react/forbid-prop-types": 0,
-        "react/no-unescaped-entities": 0,
-        "jsx-a11y/accessible-emoji": 0,
-        "react/require-default-props": 0,
-        "react/jsx-filename-extension": [
-            1,
-            {
-                "extensions": [
-                    ".js",
-                    ".jsx"
-                ]
-            }
-        ],
         "jsx-a11y/href-no-hash": "off",
         "jsx-a11y/anchor-is-valid": [
             "warn",
@@ -143,15 +125,13 @@ module.exports = {
                 ]
             }
         ],
-        "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn",
 
         /**
          * Vue ESLint Plugins
          */
         "vue/html-indent": [
             "error",
-            4,
+            2,
             {
                 "attribute": 1,
                 "baseIndent": 1,
@@ -160,6 +140,7 @@ module.exports = {
                 "ignores": []
             }
         ],
+        "vue/singleline-html-element-content-newline": "off",
         "vue/html-closing-bracket-newline": [
             "error",
             {
@@ -167,10 +148,5 @@ module.exports = {
                 "multiline": "always"
             }
         ]
-    },
-    "plugins": [
-        "html",
-        "prettier",
-        "react-hooks"
-    ]
+    }
 }
