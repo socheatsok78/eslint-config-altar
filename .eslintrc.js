@@ -3,7 +3,8 @@ module.exports = {
         "airbnb",
         "prettier",
         "prettier/react",
-        "plugin:vue/essential"
+        "plugin:vue/recommended",
+        "prettier/vue",
     ],
     "parserOptions": {
         "ecmaVersion": 2017,
@@ -145,31 +146,9 @@ module.exports = {
         ],
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
-
-        /**
-         * Vue ESLint Plugins
-         */
-        "vue/html-indent": [
-            "error",
-            4,
-            {
-                "attribute": 1,
-                "baseIndent": 1,
-                "closeBracket": 0,
-                "alignAttributesVertically": true,
-                "ignores": []
-            }
-        ],
-        "vue/html-closing-bracket-newline": [
-            "error",
-            {
-                "singleline": "never",
-                "multiline": "always"
-            }
-        ]
     },
     "plugins": [
-        "html",
+        // "html",
         "prettier",
         "react-hooks"
     ]
