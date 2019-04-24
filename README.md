@@ -1,6 +1,6 @@
-# Tasty Eslint and Prettier Setup
+# Tasty Eslint and Prettier Setup for Vue
 
-These are my settings for ESLint and Prettier
+These are my settings for ESLint and Prettier for VueJS
 
 [![Download](https://img.shields.io/npm/dm/eslint-config-altar.svg)](https://www.npmjs.com/package/eslint-config-altar)
 [![Release](https://img.shields.io/npm/v/eslint-config-altar/latest.svg)](https://www.npmjs.com/package/eslint-config-altar)
