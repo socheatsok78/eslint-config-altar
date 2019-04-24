@@ -46,8 +46,8 @@ Tip: You can alternatively put this object in your `package.json` under the prop
 
 ```json
 "scripts": {
-  "lint": "eslint .",
-  "lint:fix": "eslint . --fix"
+  "lint": "eslint --ext .js,.vue .",
+  "lint:fix": "npm run lint -- --fix"
 },
 ```
 
@@ -125,6 +125,11 @@ Once you have done one, or both, of the above installs. You probably want your e
 },
 // tell the ESLint plugin to run on save
 "eslint.autoFixOnSave": true,
+"eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    { "language": "vue", "autoFix": true }
+]
 // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
 "prettier.disableLanguages": ["javascript", "javascriptreact"],
 ```
