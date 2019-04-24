@@ -5,7 +5,6 @@ module.exports = {
         "prettier/react",
         "plugin:vue/essential"
     ],
-    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaVersion": 2017,
         "ecmaFeatures": {
