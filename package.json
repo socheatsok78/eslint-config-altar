@@ -1,0 +1,52 @@
+{
+  "name": "eslint-config-altar",
+  "version": "0.0.1",
+  "main": "index.js",
+  "repository": "git@github.com:socheatsok78/eslint-config-altar.git",
+  "license": "MIT",
+  "author": {
+    "name": "Socheat",
+    "email": "socheatsok78@gmail.com",
+    "homepage": "https://socheat.net",
+    "role": "Developer"
+  },
+  "keywords": [
+    "laravel",
+    "laravel mix",
+    "mix",
+    "eslint",
+    "prettier"
+  ],
+  "bugs": {
+    "url": "https://github.com/socheatsok78/eslint-config-altar/issues"
+  },
+  "homepage": "https://github.com/socheatsok78/eslint-config-altar#readme",
+  "peerDependencies": {
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.3.0",
+    "prettier": "^1.16.4"
+  },
+  "devDependencies": {
+    "@vue/cli-plugin-eslint": "^3.6.0",
+    "babel-eslint": "^9.0.0",
+    "eslint": "^5.14.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-config-prettier": "^4.1.0",
+    "eslint-plugin-html": "^5.0.3",
+    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-jsx-a11y": "^6.2.1",
+    "eslint-plugin-prettier": "^3.0.1",
+    "eslint-plugin-react": "^7.12.4",
+    "eslint-plugin-react-hooks": "^1.3.0",
+    "prettier": "^1.16.4"
+  }
+}
