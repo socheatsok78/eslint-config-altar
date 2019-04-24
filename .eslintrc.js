@@ -1,14 +1,13 @@
 module.exports = {
     "extends": [
-        "airbnb",
+        "eslint-config-airbnb-base",
+        "eslint-config-airbnb-base/rules/strict",
         "prettier",
-        "prettier/react",
         "plugin:vue/recommended",
         "prettier/vue",
     ],
     "plugins": [
-        "prettier",
-        "react-hooks"
+        "prettier"
     ],
     "parserOptions": {
         "ecmaVersion": 2017,
@@ -118,37 +117,5 @@ module.exports = {
                 "printWidth": 80,
             }
         ],
-
-        /**
-         * React ESLint Plugins
-         */
-        "react/display-name": 1,
-        "react/no-array-index-key": 0,
-        "react/react-in-jsx-scope": 0,
-        "react/prefer-stateless-function": 0,
-        "react/forbid-prop-types": 0,
-        "react/no-unescaped-entities": 0,
-        "jsx-a11y/accessible-emoji": 0,
-        "react/require-default-props": 0,
-        "react/jsx-filename-extension": [
-            1,
-            {
-                "extensions": [
-                    ".js",
-                    ".jsx"
-                ]
-            }
-        ],
-        "jsx-a11y/href-no-hash": "off",
-        "jsx-a11y/anchor-is-valid": [
-            "warn",
-            {
-                "aspects": [
-                    "invalidHref"
-                ]
-            }
-        ],
-        "react-hooks/rules-of-hooks": "error",
-        "react-hooks/exhaustive-deps": "warn",
     }
 }
