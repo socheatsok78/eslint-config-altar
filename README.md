@@ -2,9 +2,9 @@
 
 These are my settings for ESLint and Prettier
 
-![[Downloads](https://www.npmjs.com/package/eslint-config-altar)](https://img.shields.io/npm/dm/eslint-config-altar.svg)
-![[Release](https://www.npmjs.com/package/eslint-config-altar)](https://img.shields.io/npm/v/eslint-config-altar/latest.svg)
-![[License](LICENSE)](https://img.shields.io/github/license/socheatsok78/eslint-config-altar.svg)
+[![Download](https://img.shields.io/npm/dm/eslint-config-altar.svg)](https://www.npmjs.com/package/eslint-config-altar)
+[![Release](https://img.shields.io/npm/v/eslint-config-altar/latest.svg)](https://www.npmjs.com/package/eslint-config-altar)
+[![License](https://img.shields.io/github/license/socheatsok78/eslint-config-altar.svg)](LICENSE)
 
 You might like them - or you might not. Don't worry you can always change them.
 
