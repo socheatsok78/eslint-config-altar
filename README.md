@@ -50,7 +50,7 @@ Tip: You can alternatively put this object in your `package.json` under the prop
 
 ```json
 "scripts": {
-  "lint": "eslint --ext .js,.vue .",
+  "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
   "lint:fix": "npm run lint -- --fix"
 },
 ```
@@ -158,11 +158,11 @@ Add this configuration to your `package.json`
 },
 "lint-staged": {
   "*.js": [
-    "eslint --fix",
+    "npm run lint -- --fix",
     "git add"
   ],
   "*.vue": [
-    "eslint --fix",
+    "npm run lint -- --fix",
     "git add"
   ]
 }
