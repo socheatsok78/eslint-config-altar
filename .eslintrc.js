@@ -6,6 +6,10 @@ module.exports = {
         "plugin:vue/recommended",
         "prettier/vue",
     ],
+    "plugins": [
+        "prettier",
+        "react-hooks"
+    ],
     "parserOptions": {
         "ecmaVersion": 2017,
         "ecmaFeatures": {
@@ -146,10 +150,5 @@ module.exports = {
         ],
         "react-hooks/rules-of-hooks": "error",
         "react-hooks/exhaustive-deps": "warn",
-    },
-    "plugins": [
-        // "html",
-        "prettier",
-        "react-hooks"
-    ]
+    }
 }
