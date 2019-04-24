@@ -1,7 +1,7 @@
 {
   "name": "eslint-config-altar",
   "description": "ESLint and Prettier Config",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "main": "index.js",
   "repository": "git@github.com:socheatsok78/eslint-config-altar.git",
   "license": "MIT",
