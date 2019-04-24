@@ -138,6 +138,39 @@ Once you have done one, or both, of the above installs. You probably want your e
 "prettier.disableLanguages": ["javascript", "javascriptreact"],
 ```
 
+## 🚫💩 Git Hooks
+
+Fix your code before commiting, providing coverage to prevent bad commit.
+
+Install the following packages:
+
+```sh
+npm install --save-dev husky lint-staged
+```
+
+Add this configuration to your `package.json`
+
+```json
+"husky": {
+  "hooks": {
+    "pre-commit": "node_modules/.bin/lint-staged"
+  }
+},
+"lint-staged": {
+  "*.js": [
+    "eslint --fix",
+    "git add"
+  ],
+  "*.vue": [
+    "eslint --fix",
+    "git add"
+  ]
+}
+```
+
+@see `https://github.com/typicode/husky#readme`  
+@see `https://github.com/okonet/lint-staged#readme`
+
 ## 🤬🤬🤬🤬 ITS NOT WORKING
 
 start fresh. Sometimes global modules can goof you up. This will remove them all.
@@ -151,3 +184,7 @@ To do the above for local, omit the `--global` flag.
 Then if you are using a local install, remove your `package-lock.json` file and delete the `node_modules/` directory.
 
 Then follow the above instructions again.
+
+## Forked from Wesbos configuration
+
+@see `https://github.com/wesbos/eslint-config-wesbos#readme`
