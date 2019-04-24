@@ -138,6 +138,13 @@ Once you have done one, or both, of the above installs. You probably want your e
 "prettier.disableLanguages": ["javascript", "javascriptreact"],
 ```
 
+## `.editorconfig`
+
+```
+[*.vue]
+indent_size = 4
+```
+
 ## 🚫💩 Git Hooks
 
 Fix your code before commiting, providing coverage to prevent bad commit.
