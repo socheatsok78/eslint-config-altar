@@ -105,6 +105,31 @@ module.exports = {
         ],
         "radix": 0,
         "space-before-function-paren": 0,
+        "padding-line-between-statements": [
+            "warn",
+            {
+                "blankLine": "always",
+                "prev": [
+                    "const",
+                    "let",
+                    "var"
+                ],
+                "next": "*" 
+            },
+            {
+                "blankLine": "any",
+                "prev": [
+                    "const",
+                    "let",
+                    "var"
+                ],
+                "next": [
+                    "const",
+                    "let",
+                    "var"
+                ] 
+            }
+        ],
 
         /**
          * Prettier
