@@ -24,6 +24,9 @@ module.exports = {
         "jquery": true,
         "jest": true
     },
+    "settings": {
+        "import/resolver": "webpack"
+    },
     "rules": {
         "arrow-body-style": [
             2,
