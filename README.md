@@ -10,11 +10,11 @@ You might like them - or you might not. Don't worry you can always change them.
 
 ## What it does
 
-- Lints JavaScript based on the latest standards
-- Fixes issues and formatting errors with Prettier
-- Lints + Fixes inside of `<template>` script tags
-- Lints + Fixes Vue via [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
-- You can see all the [rules here](https://github.com/socheatsok78/eslint-config-altar/blob/master/.eslintrc.js) - these generally abide by the code written in my courses. You are very welcome to overwrite any of these settings, or just fork the entire thing to create your own.
+-   Lints JavaScript based on the latest standards
+-   Fixes issues and formatting errors with Prettier
+-   Lints + Fixes inside of `<template>` script tags
+-   Lints + Fixes Vue via [eslint-plugin-vue](https://github.com/vuejs/eslint-plugin-vue)
+-   You can see all the [rules here](https://github.com/socheatsok78/eslint-config-altar/blob/master/.eslintrc.js) - these generally abide by the code written in my courses. You are very welcome to overwrite any of these settings, or just fork the entire thing to create your own.
 
 ## Installing
 
@@ -40,7 +40,7 @@ npx install-peerdeps --dev eslint-config-altar
 
 ```json
 {
-  "extends": ["altar"]
+    "extends": ["altar"]
 }
 ```
 
@@ -71,14 +71,14 @@ npx install-peerdeps --global eslint-config-altar
 
 ESLint will look for one in your home directory
 
-- `~/.eslintrc` for mac
-- `C:\Users\username\.eslintrc` for windows
+-   `~/.eslintrc` for mac
+-   `C:\Users\username\.eslintrc` for windows
 
 In your `.eslintrc` file, it should look like this:
 
 ```json
 {
-  "extends": ["altar"]
+    "extends": ["altar"]
 }
 ```
 
@@ -138,6 +138,8 @@ Once you have done one, or both, of the above installs. You probably want your e
     { "language": "vue", "autoFix": true }
 ]
 // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
+"prettier.tabWidth": 4,
+"prettier.useTabs": false,
 "prettier.disableLanguages": ["javascript", "javascriptreact"],
 // Override VETUR tab site to 4
 "vetur.format.options.tabSize": 4,
