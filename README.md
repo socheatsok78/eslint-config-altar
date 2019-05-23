@@ -140,7 +140,7 @@ Once you have done one, or both, of the above installs. You probably want your e
 // Optional BUT IMPORTANT: If you have the prettier extension enabled for other languages like CSS and HTML, turn it off for JS since we are doing it through Eslint already
 "prettier.tabWidth": 4,
 "prettier.useTabs": false,
-"prettier.disableLanguages": ["javascript", "javascriptreact"],
+"prettier.disableLanguages": ["javascript", "javascriptreact", "vue"],
 // Override VETUR tab site to 4
 "vetur.format.options.tabSize": 4,
 ```
